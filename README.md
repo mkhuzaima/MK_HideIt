@@ -4,7 +4,7 @@
 
 Before                           |  After
 :-------------------------------:|:-------------------------:
-![before](./images/before.png)   |  ![after](./images/after)
+![before](./images/before.png)   |  ![after](./images/after.png)
 
 
 
