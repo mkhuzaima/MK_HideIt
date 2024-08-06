@@ -1,1 +1,19 @@
-{"name":"MK hide balance","version":"1.1","manifest_version":3,"content_scripts":[{"matches":["*://*.fiverr.com/*"],"js":["content.js"],"run_at":"document_start", "css" : ["style.css"]}]}
+{
+    "name": "MK hide balance",
+    "version": "1.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.fiverr.com/*/seller_dashboard"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_start",
+            "css": [
+                "style.css"
+            ]
+        }
+    ]
+}
